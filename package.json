@@ -1,0 +1,37 @@
+{
+  "name": "itty-bitty-scrollbar",
+  "version": "0.0.1",
+  "description": "Improve accessibility of scrollbars",
+  "scripts": {
+    "fix": "eslint --fix '**/*'"
+  },
+  "devDependencies": {
+    "mikey-pro": "^6.4.17"
+  },
+  "homepage": "https://github.com/itty-bitty-committee/scrollbar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itty-bitty-committee/scrollbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itty-bitty-committee/scrollbar/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "itty bitty committee",
+    "accessibility",
+    "scrollbar",
+    "styles",
+    "bigger",
+    "widen",
+    "wider"
+  ],
+  "author": "Itty Bitty Committee <ittybittyaccessibility@gmail.com> (https://ittybittycommittee.org)",
+  "prettier": "@mikey-pro/prettier-config",
+  "eslintConfig": {
+    "extends": "@mikey-pro/eslint-config"
+  },
+  "stylelint": {
+    "extends": "@mikey-pro/stylelint-config"
+  }
+}
