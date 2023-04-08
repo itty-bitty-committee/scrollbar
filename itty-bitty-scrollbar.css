@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           itty-bitty-scrollbar
+@description    change the width of the scrollbar on twitch.tv
+@namespace      https://ittybittycommittee.org
+@version        1.0.0
+@author         The itty bitty Committee
+@homepageURL    https://github.com/itty-bitty-committee/scrollbar#readme
+@supportURL     https://github.com/itty-bitty-committee/scrollbar/issues
+@preprocessor   stylus
+==/UserStyle== */
+
+/* ==UserStyle==
+@var            text twitch.tv "scrollbar-width" 13px
+==/UserStyle== */
+@-moz-document domain("twitch.tv") {
+  .simplebar-scrollbar {
+    width: twitch.tv !important;
+  }
+}
+
+/* ==UserStyle==
+@var            text discord.gg "scrollbar-width" 13px
+==/UserStyle== */
+@-moz-document domain("discord.gg") {
+  .simplebar-scrollbar {
+    width: discord.gg !important;
+  }
+}
