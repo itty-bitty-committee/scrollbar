@@ -1,28 +1,34 @@
 /* ==UserStyle==
-@name           itty-bitty-scrollbar
-@description    change the width of the scrollbar on twitch.tv
+@name           itty bitty Scrollbar
+@description    improve scrollbar accessibility
 @namespace      https://ittybittycommittee.org
 @version        1.0.0
 @author         The itty bitty Committee
 @homepageURL    https://github.com/itty-bitty-committee/scrollbar#readme
 @supportURL     https://github.com/itty-bitty-committee/scrollbar/issues
-@preprocessor   stylus
 ==/UserStyle== */
 
 /* ==UserStyle==
-@var            text twitch.tv "scrollbar-width" 13px
+@preprocessor stylus
+@var text twitch_scrollbar_width "Scrollbar: Width" 13px
 ==/UserStyle== */
 @-moz-document domain("twitch.tv") {
+  /* width */
   .simplebar-scrollbar {
-    width: twitch.tv !important;
+    width: twitch_scrollbar_width !important;
   }
 }
 
 /* ==UserStyle==
-@var            text discord.gg "scrollbar-width" 13px
+@preprocessor default
 ==/UserStyle== */
-@-moz-document domain("discord.gg") {
-  .simplebar-scrollbar {
-    width: discord.gg !important;
+@-moz-document domain("discord.com") {
+  /* color */
+  #app-mount {
+    --scrollbar-auto-thumb: #b5bac1 !important;
+  }
+  /* width */
+  .messagesWrapper-RpOMA3 ::-webkit-scrollbar {
+    width: 19px !important;
   }
 }
