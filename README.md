@@ -13,7 +13,7 @@ Install the [stylus](https://add0n.com/stylus.html) browser extension.
 [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-### Install
+### Installation
 
 [Open the scrollbar style page](https://userstyles.world/style/9192/twitch-scrollbar)
 and use the `install` button to add it to the stylus extension.
